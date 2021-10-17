@@ -1,0 +1,25 @@
+package assignmentGL.BST.Driver;
+
+import assignmentGL.BST.Arranging.*;
+import assignmentGL.BST.Traversing.*;
+import assignmentGL.BST.Node.*;
+
+
+public class DriverClass {
+
+	 public static void main (String[] args)
+	    {
+		 	Node tree = new Node();
+		 	
+	        
+	        tree.node = new Node(40);
+	        tree.node.left = new Node(30);
+	        tree.node.right = new Node(60);
+	        tree.node.left.left = new Node(10);
+	        tree.node.right.left= new Node(50);
+	       
+	        ArrangeInAscending.arrangeInAscending(tree.node);
+	        TraverseToSkewed.traverseToSkewed(tree.headNode);
+	    }
+	
+}

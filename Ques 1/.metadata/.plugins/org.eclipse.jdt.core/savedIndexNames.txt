@@ -1,0 +1,4 @@
+INDEX VERSION 1.131+D:\Shreyansh__DataStructureAssignmentSolution\Ques 1\.metadata\.plugins\org.eclipse.jdt.core
+3088417651.index
+3773781240.index
+472255526.index

@@ -1,0 +1,30 @@
+package assignmentGL.BST.Node;
+
+
+public class Node {
+	
+public Node() {
+		
+	}
+
+	
+	public static int val;
+    public static Node left;
+	public static Node right;
+	
+	public static Node node;
+    public static Node prevNode = null;
+    public static Node headNode = null;
+	
+    
+    public Node(int i) {
+		
+	}
+
+	public static void Node(int item)
+    {
+        val = item;
+        left = right = null;
+    }
+
+}
